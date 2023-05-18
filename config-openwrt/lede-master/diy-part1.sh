@@ -8,6 +8,7 @@
 
 # Add a feed source
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+sed -i '$a src-git istore https://github.com/linkease/istore;main' feeds.conf.default
 
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
